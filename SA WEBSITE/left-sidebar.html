@@ -1,0 +1,561 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Photo Gallery | SA</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+		<script type="text/javascript">
+		 $(window).scroll(function(){
+			 if($(this).scrollTop()>50){
+				 $('.menu').addClass("sticky");
+				 $('#try').addClass("sticky-logo");
+				 $('#salogo').css('opacity','1');
+				 $('#nav>ul').css('background-color','rgba(128,128,128,0.6)');
+			 }
+			 else{
+				 $('.menu').removeClass("sticky");
+				 $('#try').removeClass("sticky-logo");
+				 $('#nav>ul').css('background-color','transparent');
+				 $('#salogo').css('opacity','0');
+			 }
+		 })
+		</script>
+	</head>
+	<body class="left-sidebar is-preload">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<section id="header" class="wrapper">
+
+					<!-- Logo -->
+						<div id="logo">
+							<h1><a href="index.html">SPORTS ASSOCIATION</a></h1>
+							<p>HKUSU</p>
+						</div>
+
+					<!-- Nav -->
+					<nav id="nav">
+						<div id="try"><img src="images/SALOGOPNGBG.png" height="120" width="115" id="salogo">
+					</div>
+						<ul class="menu">
+							<li class="current"><a href="index.html">Home</a></li>
+							<li>
+								<a href="#">About Us</a>
+								<ul>
+									<li><a href="#">Our History</a></li>
+									<li><a href="#">Our Council Structure</a></li>
+									<li><a href="#">Our Excutive Committee</a></li>
+									<li>
+										<a href="#">Events Calendar</a>
+										<ul>
+											<li><a href="#">Lorem dolor</a></li>
+											<li><a href="#">Amet consequat</a></li>
+											<li><a href="#">Magna phasellus</a></li>
+											<li><a href="#">Etiam nisl</a></li>
+											<li><a href="#">Sed feugiat</a></li>
+										</ul>
+									</li>
+									<li><a href="#">Nisl tempus</a></li>
+								</ul>
+							</li>
+							<li><a href="left-sidebar.html">Photo Gallery</a></li>
+							<li><a href="right-sidebar.html">Events</a></li>
+							<li><a href="no-sidebar.html">Documents</a></li>
+						</ul>
+
+					</nav>
+
+
+				</section>
+
+			<!-- Main -->
+				<section id="main" class="wrapper style2" style="background: linear-gradient(to right, #ffafbd, #ffc3a0);" >
+					<div class="title" style="background: linear-gradient(to right, #ffafbd, #ffc3a0);">Photo Gallery</div>
+					<div class="container" style="width:90vw;">
+		<!--
+<div class="row">
+	<div class="col-4 col-12-medium">
+
+						<div class="cardi">
+					  <img src="img_avatar.png" alt="Avatar" style="width:100%; height:20em;">
+					  <div class="containerpg">
+					    <h4><b>John Doe</b></h4>
+					    <p>Architect & Engineer</p>
+					  </div>
+					</div>
+				</div>
+
+				<div class="col-4 col-12-medium">
+
+									<div class="cardi">
+								  <img src="img_avatar.png" alt="Avatar" style="width:100%; height:20em;">
+								  <div class="containerpg">
+								    <h4><b>John Doe</b></h4>
+								    <p>Architect & Engineer</p>
+								  </div>
+								</div>
+							</div>
+
+							<div class="col-4 col-12-medium">
+
+												<div class="cardi">
+											  <img src="img_avatar.png" alt="Avatar" style="width:100%; height:20em;">
+											  <div class="containerpg">
+											    <h4><b>John Doe</b></h4>
+											    <p>Architect & Engineer</p>
+											  </div>
+											</div>
+										</div>
+			</div>
+
+-->
+<script>AOS.init({ })
+</script>
+<div class="row" style=" width:93vw;" data-aos="fade-up" data-aos-duration="500">
+	<div class="col-4 col-12-medium" >
+  <div class="example-2 card">
+    <div class="wrapperns" style="background:url(images/multi.jpg) center/cover no-repeat; ">
+      <div class="headerns">
+        <div class="datens">
+          <span class="dayns">18</span>
+          <span class="monthns">Sept</span>
+          <span class="yearns">2018</span>
+        </div>
+      </div>
+      <div class="datans">
+        <div class="contentns">
+          <span class="authorns">Sports Association</span>
+          <h1 class="titlens" ><a href="https://www.facebook.com/HKUSUSA/posts/2205499466147617?__xts__[0]=68.ARAhknyXVqaBluxVk4CFMT46eTFXu1k6zDBpbB_FG733TsF1d4r_ZTpSJg6Hl1gmvYRmseYB17mKkN2xhX1AXtYYzEYqqJtb7-v-vUTVMAZMx6oqbm0QRQ28VMfIbslfYIzLObJMQVBkueK-NGioTMwsK4nz5jqS-cv5G_Dqmr7xe6l5yehIfXvA324G81eYLKJgnHiWfniQRAHdYOjFG113DR1k8gqE1_Y4qLCe2o1u5E8X_2P37tZnZzDmG_74aqZAsD1wQThaFCix7SE8phyJgenUt78rFOMjo9nOVHynjUePV44kHGej_RQE8XFKXbwQ-xBoggJw0EBhth965p2YZQ&__tn__=-R" style="color:#000; font-weight:700;" target="_blank">Multi-Martial Arts Sports Touch Day</a></h1>
+          <p class="textns"></p>
+          <a href="https://www.facebook.com/HKUSUSA/posts/2205499466147617?__xts__[0]=68.ARAhknyXVqaBluxVk4CFMT46eTFXu1k6zDBpbB_FG733TsF1d4r_ZTpSJg6Hl1gmvYRmseYB17mKkN2xhX1AXtYYzEYqqJtb7-v-vUTVMAZMx6oqbm0QRQ28VMfIbslfYIzLObJMQVBkueK-NGioTMwsK4nz5jqS-cv5G_Dqmr7xe6l5yehIfXvA324G81eYLKJgnHiWfniQRAHdYOjFG113DR1k8gqE1_Y4qLCe2o1u5E8X_2P37tZnZzDmG_74aqZAsD1wQThaFCix7SE8phyJgenUt78rFOMjo9nOVHynjUePV44kHGej_RQE8XFKXbwQ-xBoggJw0EBhth965p2YZQ&__tn__=-R" class="buttonns">Read More</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="col-4 col-12-medium">
+<div class="example-2 card">
+	<div class="wrapperns">
+		<div class="headerns">
+			<div class="datens">
+				<span class="dayns">12</span>
+				<span class="monthns">Aug</span>
+				<span class="yearns">2016</span>
+			</div>
+		</div>
+		<div class="datans">
+			<div class="contentns">
+				<span class="authorns">Jane Doe</span>
+				<h1 class="titlens" ><a href="#">Stranger Things: The sound of the Upside Down</a></h1>
+				<p class="textns" ></p>
+				<a href="#" class="buttonns">Read More</a>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+
+<div class="col-4 col-12-medium">
+<div class="example-2 card">
+	<div class="wrapperns">
+		<div class="headerns">
+			<div class="datens">
+				<span class="dayns">12</span>
+				<span class="monthns">Aug</span>
+				<span class="yearns">2016</span>
+			</div>
+		</div>
+		<div class="datans">
+			<div class="contentns">
+				<span class="authorns">Jane Doe</span>
+				<h1 class="titlens" ><a href="#">Stranger Things: The sound of the Upside Down</a></h1>
+				<p class="textns" ></p>
+				<a href="#" class="buttonns">Read More</a>
+			</div>
+		</div>
+	</div>
+  </div>
+ </div>
+</div>
+
+
+<div class="row" style=" width:93vw; margin-top:0.5em;" data-aos="fade-up" data-aos-duration="500">
+	<div class="col-4 col-12-medium" >
+  <div class="example-2 card">
+    <div class="wrapperns">
+      <div class="headerns">
+        <div class="datens">
+          <span class="dayns">12</span>
+          <span class="monthns">Aug</span>
+          <span class="yearns">2016</span>
+        </div>
+      </div>
+      <div class="datans">
+        <div class="contentns">
+          <span class="authorns">Jane Doe</span>
+          <h1 class="titlens" ><a href="#">Stranger Things: The sound of the Upside Down</a></h1>
+          <p class="textns"></p>
+          <a href="#" class="buttonns">Read More</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="col-4 col-12-medium">
+<div class="example-2 card">
+	<div class="wrapperns">
+		<div class="headerns">
+			<div class="datens">
+				<span class="dayns">12</span>
+				<span class="monthns">Aug</span>
+				<span class="yearns">2016</span>
+			</div>
+		</div>
+		<div class="datans">
+			<div class="contentns">
+				<span class="authorns">Jane Doe</span>
+				<h1 class="titlens" ><a href="#">Stranger Things: The sound of the Upside Down</a></h1>
+				<p class="textns" ></p>
+				<a href="#" class="buttonns">Read More</a>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+
+<div class="col-4 col-12-medium">
+<div class="example-2 card">
+	<div class="wrapperns">
+		<div class="headerns">
+			<div class="datens">
+				<span class="dayns">12</span>
+				<span class="monthns">Aug</span>
+				<span class="yearns">2016</span>
+			</div>
+		</div>
+		<div class="datans">
+			<div class="contentns">
+				<span class="authorns">Jane Doe</span>
+				<h1 class="titlens" ><a href="#">Stranger Things: The sound of the Upside Down</a></h1>
+				<p class="textns" ></p>
+				<a href="#" class="buttonns">Read More</a>
+			</div>
+		</div>
+	</div>
+  </div>
+ </div>
+</div>
+
+
+<div id="copyright">
+	<ul>
+		<li>&copy; Sports Association, H.K.U.S.U</li>
+		<li><a href="https://www.facebook.com/HKUSUSA/" target="_blank" class="fa fa-facebook"></a></li>
+		<li><a href="mailto:sahkusu1819@gmail.com" target="_blank" class="far fa fa-envelope"></a></li>
+	</ul>
+</div>
+
+
+
+<!--
+
+						<div class="row gtr-150">
+							<div class="col-4 col-12-medium">
+-->
+								<!-- Sidebar -->
+<!--									<div id="sidebar">
+										<section class="box">
+											<header>
+												<h2>Ipsum nullam luctus</h2>
+											</header>
+											<p>Malesuada quis eget eros. Nullam sodales cursus sapien, id consequat
+											leo suscipit ut. Praesent id turpis vitae turpis pretium ultricies. Vestibulum sit
+											amet risus elit.</p>
+											<a href="#" class="button style1">Learn More</a>
+										</section>
+										<section class="box">
+											<header>
+												<h2>Vitae turpis consequat</h2>
+											</header>
+											<ul class="style2">
+												<li>
+													<article class="box post-excerpt">
+														<a href="#" class="image left"><img src="images/pic08.jpg" alt="" /></a>
+														<h3><a href="#">Diam odio lorem</a></h3>
+														<p>Duis odio diam, luctus et vulputate vitae, vehicula ac dolor. Pellentesque at urna eget tellus sed etiam.</p>
+													</article>
+												</li>
+												<li>
+													<article class="box post-excerpt">
+														<a href="#" class="image left"><img src="images/pic09.jpg" alt="" /></a>
+														<h3><a href="#">Sed duis consequat</a></h3>
+														<p>Duis odio diam, luctus et vulputate vitae, vehicula ac dolor. Pellentesque at urna eget tellus sed etiam.</p>
+													</article>
+												</li>
+												<li>
+													<article class="box post-excerpt">
+														<a href="#" class="image left"><img src="images/pic10.jpg" alt="" /></a>
+														<h3><a href="#">Tellus nulla volutpat</a></h3>
+														<p>Duis odio diam, luctus et vulputate vitae, vehicula ac dolor. Pellentesque at urna eget tellus sed etiam.</p>
+													</article>
+												</li>
+											</ul>
+											<a href="#" class="button style1">Archives</a>
+										</section>
+										<section class="box">
+											<header>
+												<h2>Magna diam vehicula</h2>
+											</header>
+											<ul class="style3">
+												<li><a href="#">Nulla iaculis egestas varius</a></li>
+												<li><a href="#">Augue massa feugiat quam pretium</a></li>
+												<li><a href="#">Orci sem vel libero cras nisi odio</a></li>
+												<li><a href="#">Sed hendrerit massa nam mattis</a></li>
+												<li><a href="#">Turpis vel leo accumsan aliquet</a></li>
+												<li><a href="#">Dapibus mi fermentum fusce non</a></li>
+												<li><a href="#">Arcu laoreet sapien tempus</a></li>
+												<li><a href="#">Nulla iaculis egestas varius</a></li>
+												<li><a href="#">Augue massa feugiat quam pretium</a></li>
+												<li><a href="#">Orci sem vel libero cras nisi odio</a></li>
+												<li><a href="#">Sed hendrerit massa nam mattis</a></li>
+											</ul>
+										</section>
+									</div>
+
+							</div>
+							<div class="col-8 col-12-medium imp-medium">
+-->
+								<!-- Content -->
+<!--									<div id="content">
+										<article class="box post">
+											<header class="style1">
+												<h2>Lorem ipsum dolor sit amet magna egestas morbi bibendum sed malesuada</h2>
+												<p>Tempus feugiat veroeros sed nullam dolore</p>
+											</header>
+											<a href="#" class="image featured">
+												<img src="images/pic01.jpg" alt="" />
+											</a>
+											<p>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget.
+											odio eleifend. Duis commodo fringilla commodo. Aliquam erat volutpat. Vestibulum
+											facilisis leo magna. Cras sit amet urna eros, id egestas urna. Quisque aliquam
+											tempus euismod. Vestibulum ante ipsum primis in faucibus.</p>
+											<p>Phasellus nisl nisl, varius id porttitor sed, pellentesque ac orci. Pellentesque
+											habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi
+											bibendum justo sed mauris vehicula malesuada aliquam elit imperdiet. Aliquam eu nibh
+											lorem, eget gravida mi. Duis odio diam, luctus et vulputate vitae, vehicula ac dolor.
+											Pellentesque at urna eget tellus lobortis ultrices sed non erat. Donec eget erat non
+											magna volutpat malesuada quis eget eros. Nullam sodales cursus sapien, id consequat
+											leo suscipit ut. Praesent id turpis vitae turpis pretium ultricies. Vestibulum sit
+											amet risus elit.</p>
+											<p>Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis enim, at viverra
+											ligula. Ut porttitor sagittis lorem, quis eleifend nisi ornare vel. Praesent nec orci
+											eget quam rutrum bibendum. Proin pellentesque diam non ligula commodo tempor. Vivamus
+											eget urna nibh. Curabitur non fringilla nisl. Donec accumsan interdum nisi, quis
+											tincidunt felis sagittis eget. Donec elementum ligula dignissim sem pulvinar non semper
+											odio eleifend. Duis commodo fringilla commodo. Aliquam erat volutpat. Vestibulum
+											facilisis leo magna. Cras sit amet urna eros, id egestas urna. Quisque aliquam
+											tempus euismod. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+											posuere cubilia.</p>
+											<p>Phasellus nisl nisl, varius id porttitor sed, pellentesque ac orci. Pellentesque
+											habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi
+											bibendum justo sed mauris vehicula malesuada aliquam elit imperdiet. Aliquam eu nibh
+											lorem, eget gravida mi. Duis odio diam, luctus et vulputate vitae, vehicula ac dolor.
+											Pellentesque at urna eget tellus lobortis ultrices sed non erat. Donec eget erat non
+											magna volutpat malesuada quis eget eros. Nullam sodales cursus sapien, id consequat
+											leo suscipit ut. Praesent id turpis vitae turpis pretium ultricies. Vestibulum sit
+											amet risus elit.</p>
+										</article>
+										<div class="row gtr-150">
+											<div class="col-6 col-12-small">
+												<section class="box">
+													<header>
+														<h2>Magna pulvinar tempus</h2>
+													</header>
+													<a href="#" class="image featured"><img src="images/pic05.jpg" alt="" /></a>
+													<p>Rutrum bibendum. Proin pellentesque diam non ligula commodo tempor. Vivamus
+													eget urna nibh. Curabitur non fringilla nisl. Donec accumsan interdum nisi, quis
+													tempus.</p>
+													<a href="#" class="button style1">More</a>
+												</section>
+											</div>
+											<div class="col-6 col-12-small">
+												<section class="box">
+													<header>
+														<h2>Magna pulvinar tempus</h2>
+													</header>
+													<a href="#" class="image featured"><img src="images/pic06.jpg" alt="" /></a>
+													<p>Rutrum bibendum. Proin pellentesque diam non ligula commodo tempor. Vivamus
+													eget urna nibh. Curabitur non fringilla nisl. Donec accumsan interdum nisi, quis
+													tempus.</p>
+													<a href="#" class="button style1">More</a>
+												</section>
+											</div>
+										</div>
+									</div>
+
+							</div>
+						</div>
+					</div>
+				</section>
+-->
+
+			<!-- Highlights -->
+<!--
+				<section id="highlights" class="wrapper style3">
+					<div class="title">The Endorsements</div>
+					<div class="container">
+						<div class="row aln-center">
+							<div class="col-4 col-12-medium">
+								<section class="highlight">
+									<a href="#" class="image featured"><img src="images/pic02.jpg" alt="" /></a>
+									<h3><a href="#">Aliquam diam consequat</a></h3>
+									<p>Eget mattis at, laoreet vel amet sed velit aliquam diam ante, dolor aliquet sit amet vulputate mattis amet laoreet lorem.</p>
+									<ul class="actions">
+										<li><a href="#" class="button style1">Learn More</a></li>
+									</ul>
+								</section>
+							</div>
+							<div class="col-4 col-12-medium">
+								<section class="highlight">
+									<a href="#" class="image featured"><img src="images/pic03.jpg" alt="" /></a>
+									<h3><a href="#">Nisl adipiscing sed lorem</a></h3>
+									<p>Eget mattis at, laoreet vel amet sed velit aliquam diam ante, dolor aliquet sit amet vulputate mattis amet laoreet lorem.</p>
+									<ul class="actions">
+										<li><a href="#" class="button style1">Learn More</a></li>
+									</ul>
+								</section>
+							</div>
+							<div class="col-4 col-12-medium">
+								<section class="highlight">
+									<a href="#" class="image featured"><img src="images/pic04.jpg" alt="" /></a>
+									<h3><a href="#">Mattis tempus lorem</a></h3>
+									<p>Eget mattis at, laoreet vel amet sed velit aliquam diam ante, dolor aliquet sit amet vulputate mattis amet laoreet lorem.</p>
+									<ul class="actions">
+										<li><a href="#" class="button style1">Learn More</a></li>
+									</ul>
+								</section>
+							</div>
+						</div>
+					</div>
+				</section>
+	-->
+			<!-- Footer -->
+	<!--
+				<section id="footer" class="wrapper">
+					<div class="title">The Rest Of It</div>
+					<div class="container">
+						<header class="style1">
+							<h2>Ipsum sapien elementum portitor?</h2>
+							<p>
+								Sed turpis tortor, tincidunt sed ornare in metus porttitor mollis nunc in aliquet.<br />
+								Nam pharetra laoreet imperdiet volutpat etiam feugiat.
+							</p>
+						</header>
+						<div class="row">
+							<div class="col-6 col-12-medium">
+-->
+								<!-- Contact Form -->
+<!--
+									<section>
+										<form method="post" action="#">
+											<div class="row gtr-50">
+												<div class="col-6 col-12-small">
+													<input type="text" name="name" id="contact-name" placeholder="Name" />
+												</div>
+												<div class="col-6 col-12-small">
+													<input type="text" name="email" id="contact-email" placeholder="Email" />
+												</div>
+												<div class="col-12">
+													<textarea name="message" id="contact-message" placeholder="Message" rows="4"></textarea>
+												</div>
+												<div class="col-12">
+													<ul class="actions">
+														<li><input type="submit" class="style1" value="Send" /></li>
+														<li><input type="reset" class="style2" value="Reset" /></li>
+													</ul>
+												</div>
+											</div>
+										</form>
+									</section>
+
+							</div>
+							<div class="col-6 col-12-medium">
+-->
+								<!-- Contact -->
+<!--
+									<section class="feature-list small">
+										<div class="row">
+											<div class="col-6 col-12-small">
+												<section>
+													<h3 class="icon fa-home">Mailing Address</h3>
+													<p>
+														Untitled Corp<br />
+														1234 Somewhere Rd<br />
+														Nashville, TN 00000
+													</p>
+												</section>
+											</div>
+											<div class="col-6 col-12-small">
+												<section>
+													<h3 class="icon fa-comment">Social</h3>
+													<p>
+														<a href="#">@untitled-corp</a><br />
+														<a href="#">linkedin.com/untitled</a><br />
+														<a href="#">facebook.com/untitled</a>
+													</p>
+												</section>
+											</div>
+											<div class="col-6 col-12-small">
+												<section>
+													<h3 class="icon fa-envelope">Email</h3>
+													<p>
+														<a href="#">info@untitled.tld</a>
+													</p>
+												</section>
+											</div>
+											<div class="col-6 col-12-small">
+												<section>
+													<h3 class="icon fa-phone">Phone</h3>
+													<p>
+														(000) 555-0000
+													</p>
+												</section>
+											</div>
+										</div>
+									</section>
+
+							</div>
+						</div>
+						<div id="copyright">
+							<ul>
+								<li>&copy; Sports Association, H.K.U.S.U</li>
+								<li><a href="https://www.facebook.com/HKUSUSA/" target="_blank" class="fa fa-facebook"></a></li>
+								<li><a href="mailto:sahkusu1819@gmail.com" target="_blank" class="far fa fa-envelope"></a></li>
+							</ul>
+						</div>
+-->
+					</div>
+				</section>
+
+
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
